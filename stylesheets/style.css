@@ -1,0 +1,78 @@
+html{
+	min-height: 100%;
+}
+body{
+	background:linear-gradient(#c31432, #240b36);
+	background-repeat:no-repeat;
+	
+}
+
+
+h1{
+	font-family:"Julee", serif; 
+	font-size: 72px;
+	text-align: center;
+
+
+}
+.flex-container{
+	display:flex;
+	flex-direction: row; 
+	justify-content:center;
+}
+.flex-container> div{
+	background-color:#000000;
+	width:200px;
+	height:200px;
+	margin:10px;
+	padding:20px;
+	font-size:30px;
+	color:#f8f8ff;
+	text-align: center;
+	background-position: center;
+	transition: all 3s;
+
+}
+
+#ghost:hover {
+	transform: scale(3);
+	border-radius: 40%;
+	background:url('../images/spookyghost.png');
+	background-size: 160px 141px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#cat:hover{
+	transform: scale(2);
+	border-radius: 40%;
+	background:url('../images/cat.png');
+	background-size: 169px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#zombie:hover{
+	transform: scale(2);
+	border-radius: 40%;
+	background:url('../images/zombie.png');
+	background-size: 160px 213px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@keyframes ghost-move{
+    0% {transform: translateX(0px); }
+    50%{transform: translateX(75%);}
+    100%{transform: translateX(0px);}
+}
+
+#animate{
+	position: relative;
+	display: block;
+	animation-name:ghost-move;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+

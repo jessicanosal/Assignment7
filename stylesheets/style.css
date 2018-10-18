@@ -25,6 +25,7 @@ h1{
 	width:200px;
 	height:200px;
 	margin:10px;
+	margin-bottom: 100px;
 	padding:20px;
 	font-size:30px;
 	color:#f8f8ff;
@@ -73,6 +74,10 @@ h1{
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 
+}
+
+#haunted{
+	background-position: center;
 }
 
 

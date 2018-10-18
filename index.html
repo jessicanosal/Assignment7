@@ -6,14 +6,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet">
 </head>
 <body>
-	<h1> Find the Spooky Ghost!</h1>
-	<div id="animate">
-		<img src="images/ghost.png" width="160px" height="140px" alt="spooky ghosts">
-	</div>
-	<div class="flex-container">
-		<div id="cat">1 </div>	
-		<div id="ghost">2</div>
-		<div id="zombie">3</div>
+	<div id="haunted">
+		<h1> Find the Spooky Ghost!</h1>
+		<div id="animate">
+			<img src="images/ghost.png" width="160px" height="140px" alt="spooky ghosts">
+		</div>
+		<div class="flex-container">
+			<div id="cat">1 </div>	
+			<div id="ghost">2</div>
+			<div id="zombie">3</div>
+		</div>
+		<div id="center">
+			<img id="trick" src="images/frontdoor.png">
+			<button onclick="document.getElementById('trick').src='images/tickortreat.jpg' "> Ding Dong!</button>
+		</div>
+		<button onclick="document.getElementById('haunted').style.backgroundImage='url(images/graveyard.png)'"> What's behind the house?</button>
 	</div>
 
 </body>

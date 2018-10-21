@@ -80,4 +80,13 @@ h1{
 	background-position: center;
 }
 
+button{
+	border:solid black;
+	background-color: orange;
+	font-family:"Julee", serif;
+	font-size: 14px;
+	padding: 10px;
+	margin: 10px;
+}
+
 
